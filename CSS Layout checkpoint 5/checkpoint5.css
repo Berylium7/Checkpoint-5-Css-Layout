@@ -1,0 +1,451 @@
+body {
+    padding: 0px;
+    margin: 0%;
+}
+
+nav{
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    width: 100%;
+
+}
+
+.Navbar_div {
+    background-color:white;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 310px;
+
+}
+
+.logosvg {
+    background-color: white;
+    width: 240px;
+    height: 30px;
+}
+
+.div-menu {
+    overflow: hidden;
+    background-color: white;
+    width: 279px;
+}
+  
+.div-menu a {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.About-color {
+    color: rgb(12, 199, 186) 
+}
+.Career-color {
+    color: rgb(133, 132, 132);
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(133, 132, 132);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.div-menu :hover {
+    color: rgb(12, 199, 186) ;
+} 
+
+.div-menu .About-color:hover {
+    color: rgb(133, 132, 132);
+}
+.div-menu .Career-color:hover {
+    color: rgb(12, 199, 186) ;
+}
+
+.dropdown:hover {
+    color: rgb(12, 199, 186) ;
+}
+
+.dropbtn:hover {
+    color: rgb(12, 199, 186) ;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    float: none;
+    color: rgb(133, 132, 132);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color:rgb(227, 227, 227);
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.Section1 {
+    margin: 50px 320px;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.Synget-logo {
+    width: 36px;
+    margin-top: 30px;
+}
+
+.Text-under-logo {
+    font-family: 'Roboto Serif';
+    color: rgb(12, 199, 186) ;
+    font-size: 32px ;
+    font-weight: 500;
+}
+
+.Texte {
+    width: 49%;
+    line-height: 25px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+.Textes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Section2 {
+    margin: 50px 310px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Section2 img {
+    width: 20px;
+}
+
+.Cards1 {
+    flex: 25%;
+    background-color: #00ccb1;
+    border-radius: 10px;
+    height: 300px;
+    justify-content: space-between;
+    margin: 10px 10px;
+    transition: all .2s ease 0s;
+}
+.Cards2 {
+    flex: 25%;
+    background-color: #3d83df ;
+    border-radius: 10px;
+    height: 300px;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+.Cards3 {
+    flex: 25%;
+    background-color: #1b2734;
+    border-radius: 10px;
+    height: 300px;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.Section2 h1, h2  {
+    font-family:sans-serif;
+    font-weight: 100;
+    font-size: 23px;
+    color: white;
+    margin: 10px 0px;
+}
+
+.Cards-n1 {
+    background-color: #00ccb1;
+    padding: 10px 20px 0px 30px;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.Cards-n2 {
+    background-color: #3d83df ;
+    padding: 10px 20px 0px 30px;
+    border-radius: 10px;
+    height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Cards-n3 {
+    background-color: #1b2734;
+    padding: 10px 20px 0px 30px;
+    border-radius: 10px;
+    height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.div-a  {
+    padding: 20px 0px;
+    font-family:sans-serif;
+    font-weight: 100;
+
+    cursor: pointer;
+}
+
+.div-a a {
+    color: white;
+    text-decoration: underline;
+    font-size: 17px;
+
+}
+
+.Section3 {
+    height: 150px;
+    margin-bottom: 50px;
+}
+.Section3-div {
+    display: flex;
+    height: 100%;
+    margin: 0px 310px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Section3-h1 h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    line-height: 30px;
+    width: 240px;
+    color: #01bba2;
+}
+
+.Section3-brands {
+    height: 150px;
+
+}
+
+.brands-logos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    width: 85%;
+    height: 70%;
+    gap: 30px;
+    opacity: 50%;
+}
+
+.brands-logos img {
+    width: 60px;
+    
+}
+.brands-logos svg {
+    width: 110px;
+    
+}
+
+.company h1{
+    width: 300px;
+    font-size: 30px;
+    padding-right: 1em;
+    color: #00b39b;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+
+.Section4 {
+    background-color: #d4fbf7;
+    height: 530px;
+    background-image: url(https://www.docplanner.com/img/logo.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 200px 250px ;
+    justify-content: space-evenly;
+}
+
+.information{
+    margin: 0px 310px;
+    display: flex;
+    flex-direction: row;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 500px;
+    background-color: transparent;
+}
+
+.information-txt {
+    padding: 30px 10px;
+    width: 500px;
+
+}
+.information h1{
+    color: #00b39b;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+}
+.information h3{
+    color: #00b39b;
+    font-weight: 400;
+}
+.information p{
+    color: gray;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 11px;
+}
+
+.information1{
+    text-align: Center;
+    width: 800px;
+    height: 530px;
+}
+
+.information1A{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:right;
+    gap: 1.2rem;
+    margin: 30px 0px;
+}
+
+.infomation1Abis{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 180px;
+    padding: 20px 20px;
+    width: 160px;
+}
+
+
+/* 
+.Section5 {
+
+} */
+
+.country_grid{
+    display: grid;
+    margin: 0px 310px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    color: gray;
+    text-align: center;
+
+}
+
+.country_grid img {
+    border-radius: 6px 6px 0px 0px;
+    width: 270px;
+}
+
+.Image-title {
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+}
+
+.Title {
+    background-color: white;
+    text-align: center;
+    margin: 70px 550px;
+}
+
+.Title h1 {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(12, 199, 186) ;
+    font-weight: 300;
+    padding: 10px 5px 0px 10px;
+    font-size: 26px;
+    line-height: 35px;
+}
+
+.Title p {
+    color: rgb(99, 99, 99);
+    font-family: sans-serif;
+    font-size: 12.5px;
+    line-height: 20px;
+}
+
+
+.Titles {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(56, 92, 255);
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+.Section6 {
+    height: 200px;
+    margin-top: 10px;
+}
+
+.Join-us {
+    margin: 0px 310px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.Join-us h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+}
+.Join-us button {
+    height: 35px;
+    width: 190px;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.Footer {
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    padding: 15px 0px;
+    box-shadow: 5px 0px 2px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
