@@ -3,12 +3,19 @@ body {
     margin: 0%;
 }
 
+@media (max-width: 500px) {
+    .body{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
+}
+
 nav{
     top: 0%;
     left: 0%;
     position: fixed;
     width: 100%;
-
 }
 
 .Navbar_div {
@@ -115,6 +122,14 @@ nav{
     padding: 15px 0px;
 }
 
+@media (max-width: 500px) {
+    .Section1{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
+}
+
 .Synget-logo {
     width: 36px;
     margin-top: 30px;
@@ -150,6 +165,14 @@ nav{
 
 .Section2 img {
     width: 20px;
+}
+
+@media (max-width: 500px) {
+    .Section2{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
 }
 
 .Cards1 {
@@ -236,6 +259,15 @@ nav{
     height: 150px;
     margin-bottom: 50px;
 }
+
+@media (max-width: 500px) {
+    .Section3{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
+}
+
 .Section3-div {
     display: flex;
     height: 100%;
@@ -296,6 +328,14 @@ nav{
     background-repeat: no-repeat;
     background-position: 200px 250px ;
     justify-content: space-evenly;
+}
+
+@media (max-width: 500px) {
+    .Section4{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
 }
 
 .information{
@@ -365,8 +405,16 @@ nav{
     gap: 1rem;
     color: gray;
     text-align: center;
-
 }
+
+@media (max-width: 500px) {
+    .country_grid{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
+}
+
 
 .country_grid img {
     border-radius: 6px 6px 0px 0px;
@@ -423,6 +471,14 @@ button {
     margin-top: 10px;
 }
 
+@media (max-width: 500px) {
+    .Section6{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
+}
+
 .Join-us {
     margin: 0px 310px;
     text-align: center;
@@ -448,4 +504,12 @@ button {
     padding: 15px 0px;
     box-shadow: 5px 0px 2px 0px rgba(0,0,0,0.2);
     z-index: 1;
+}
+
+@media (max-width: 500px) {
+    .Footer{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
 }
